@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-08 09:52:03.083526",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "stocked_as",
+  "bought_as",
+  "alt_view",
+  "tags",
+  "uom",
+  "price",
+  "quantity",
+  "restrict_quantity",
+  "res_uom",
+  "min",
+  "max",
+  "picture"
+ ],
+ "fields": [
+  {
+   "fieldname": "stocked_as",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Stocked As",
+   "options": "Purchase Order Details"
+  },
+  {
+   "fetch_from": "stocked_as.uom",
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "UOM",
+   "options": "UOM Master"
+  },
+  {
+   "fieldname": "res_uom",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Res UOM"
+  },
+  {
+   "fieldname": "bought_as",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Bought As",
+   "options": "Item Master"
+  },
+  {
+   "fetch_from": "stocked_as.price",
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Price"
+  },
+  {
+   "fieldname": "min",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Min"
+  },
+  {
+   "fetch_from": "bought_as.item_type",
+   "fieldname": "alt_view",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Alt View"
+  },
+  {
+   "fetch_from": "stocked_as.quantity",
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "max",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Max"
+  },
+  {
+   "fieldname": "tags",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tags"
+  },
+  {
+   "default": "0",
+   "fetch_from": "stocked_as.restrict_quantity",
+   "fieldname": "restrict_quantity",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Restrict Quantity"
+  },
+  {
+   "fieldname": "picture",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Picture"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-21 09:57:33.906949",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Purchase Order Details Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

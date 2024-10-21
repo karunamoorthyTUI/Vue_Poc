@@ -1,0 +1,51 @@
+[
+ {
+  "days": "Saturday",
+  "docstatus": 0,
+  "doctype": "Days",
+  "modified": "2024-10-04 12:28:52.081702",
+  "name": "Saturday"
+ },
+ {
+  "days": "Friday",
+  "docstatus": 0,
+  "doctype": "Days",
+  "modified": "2024-10-04 12:28:59.225011",
+  "name": "Friday"
+ },
+ {
+  "days": "Thursday",
+  "docstatus": 0,
+  "doctype": "Days",
+  "modified": "2024-10-04 12:29:08.073201",
+  "name": "Thursday"
+ },
+ {
+  "days": "Wednesday",
+  "docstatus": 0,
+  "doctype": "Days",
+  "modified": "2024-10-04 12:29:16.054129",
+  "name": "Wednesday"
+ },
+ {
+  "days": "Tuesday",
+  "docstatus": 0,
+  "doctype": "Days",
+  "modified": "2024-10-04 12:29:26.131383",
+  "name": "Tuesday"
+ },
+ {
+  "days": "Monday",
+  "docstatus": 0,
+  "doctype": "Days",
+  "modified": "2024-10-04 12:29:32.720420",
+  "name": "Monday"
+ },
+ {
+  "days": "Sunday",
+  "docstatus": 0,
+  "doctype": "Days",
+  "modified": "2024-10-04 12:29:39.659536",
+  "name": "Sunday"
+ }
+]

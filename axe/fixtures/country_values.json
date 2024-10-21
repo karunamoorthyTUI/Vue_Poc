@@ -1,0 +1,1752 @@
+[
+ {
+  "country": "Afghanistan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:35.828655",
+  "name": "Afghanistan"
+ },
+ {
+  "country": "Aland Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:35.946994",
+  "name": "Aland Islands"
+ },
+ {
+  "country": "Albania",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:35.978535",
+  "name": "Albania"
+ },
+ {
+  "country": "Algeria",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.014295",
+  "name": "Algeria"
+ },
+ {
+  "country": "American Samoa",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.044234",
+  "name": "American Samoa"
+ },
+ {
+  "country": "Andorra",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.066920",
+  "name": "Andorra"
+ },
+ {
+  "country": "Angola",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.086808",
+  "name": "Angola"
+ },
+ {
+  "country": "Anguilla",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.107821",
+  "name": "Anguilla"
+ },
+ {
+  "country": "Antarctica",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.131388",
+  "name": "Antarctica"
+ },
+ {
+  "country": "Antigua And Barbuda",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.152509",
+  "name": "Antigua And Barbuda"
+ },
+ {
+  "country": "Argentina",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.175263",
+  "name": "Argentina"
+ },
+ {
+  "country": "Armenia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.197456",
+  "name": "Armenia"
+ },
+ {
+  "country": "Aruba",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.218808",
+  "name": "Aruba"
+ },
+ {
+  "country": "Australia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.241281",
+  "name": "Australia"
+ },
+ {
+  "country": "Austria",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.264530",
+  "name": "Austria"
+ },
+ {
+  "country": "Azerbaijan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.286573",
+  "name": "Azerbaijan"
+ },
+ {
+  "country": "Bahamas The",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.307820",
+  "name": "Bahamas The"
+ },
+ {
+  "country": "Bahrain",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.331081",
+  "name": "Bahrain"
+ },
+ {
+  "country": "Bangladesh",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.353461",
+  "name": "Bangladesh"
+ },
+ {
+  "country": "Barbados",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.374328",
+  "name": "Barbados"
+ },
+ {
+  "country": "Belarus",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.397528",
+  "name": "Belarus"
+ },
+ {
+  "country": "Belgium",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.418652",
+  "name": "Belgium"
+ },
+ {
+  "country": "Belize",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.452153",
+  "name": "Belize"
+ },
+ {
+  "country": "Benin",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.486829",
+  "name": "Benin"
+ },
+ {
+  "country": "Bermuda",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.507241",
+  "name": "Bermuda"
+ },
+ {
+  "country": "Bhutan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.530587",
+  "name": "Bhutan"
+ },
+ {
+  "country": "Bolivia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.552108",
+  "name": "Bolivia"
+ },
+ {
+  "country": "Bonaire, Sint Eustatius and Saba",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.665250",
+  "name": "Bonaire, Sint Eustatius and Saba"
+ },
+ {
+  "country": "Bosnia and Herzegovina",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.687161",
+  "name": "Bosnia and Herzegovina"
+ },
+ {
+  "country": "Botswana",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.712042",
+  "name": "Botswana"
+ },
+ {
+  "country": "Bouvet Island",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.732233",
+  "name": "Bouvet Island"
+ },
+ {
+  "country": "Brazil",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.753695",
+  "name": "Brazil"
+ },
+ {
+  "country": "British Indian Ocean Territory",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.774723",
+  "name": "British Indian Ocean Territory"
+ },
+ {
+  "country": "Brunei",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.798910",
+  "name": "Brunei"
+ },
+ {
+  "country": "Bulgaria",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.820005",
+  "name": "Bulgaria"
+ },
+ {
+  "country": "Burkina Faso",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.840410",
+  "name": "Burkina Faso"
+ },
+ {
+  "country": "Burundi",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.865991",
+  "name": "Burundi"
+ },
+ {
+  "country": "Cambodia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.885210",
+  "name": "Cambodia"
+ },
+ {
+  "country": "Cameroon",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.906746",
+  "name": "Cameroon"
+ },
+ {
+  "country": "Canada",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.930975",
+  "name": "Canada"
+ },
+ {
+  "country": "Cape Verde",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.951645",
+  "name": "Cape Verde"
+ },
+ {
+  "country": "Cayman Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.973785",
+  "name": "Cayman Islands"
+ },
+ {
+  "country": "Central African Republic",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:36.997988",
+  "name": "Central African Republic"
+ },
+ {
+  "country": "Chad",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.018793",
+  "name": "Chad"
+ },
+ {
+  "country": "Chile",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.044165",
+  "name": "Chile"
+ },
+ {
+  "country": "China",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.075670",
+  "name": "China"
+ },
+ {
+  "country": "Christmas Island",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.106172",
+  "name": "Christmas Island"
+ },
+ {
+  "country": "Cocos (Keeling) Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.133043",
+  "name": "Cocos (Keeling) Islands"
+ },
+ {
+  "country": "Colombia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.153137",
+  "name": "Colombia"
+ },
+ {
+  "country": "Comoros",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.220222",
+  "name": "Comoros"
+ },
+ {
+  "country": "Congo",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.239943",
+  "name": "Congo"
+ },
+ {
+  "country": "Congo The Democratic Republic Of The",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.265025",
+  "name": "Congo The Democratic Republic Of The"
+ },
+ {
+  "country": "Cook Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.286082",
+  "name": "Cook Islands"
+ },
+ {
+  "country": "Costa Rica",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.306247",
+  "name": "Costa Rica"
+ },
+ {
+  "country": "Cote D'Ivoire (Ivory Coast)",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.332330",
+  "name": "Cote D'Ivoire (Ivory Coast)"
+ },
+ {
+  "country": "Croatia (Hrvatska)",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.352796",
+  "name": "Croatia (Hrvatska)"
+ },
+ {
+  "country": "Cuba",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.373024",
+  "name": "Cuba"
+ },
+ {
+  "country": "Curaçao",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.398829",
+  "name": "Curaçao"
+ },
+ {
+  "country": "Cyprus",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.419056",
+  "name": "Cyprus"
+ },
+ {
+  "country": "Czech Republic",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.439148",
+  "name": "Czech Republic"
+ },
+ {
+  "country": "Denmark",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.465640",
+  "name": "Denmark"
+ },
+ {
+  "country": "Djibouti",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.485644",
+  "name": "Djibouti"
+ },
+ {
+  "country": "Dominica",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.505913",
+  "name": "Dominica"
+ },
+ {
+  "country": "Dominican Republic",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.531665",
+  "name": "Dominican Republic"
+ },
+ {
+  "country": "East Timor",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.552715",
+  "name": "East Timor"
+ },
+ {
+  "country": "Ecuador",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.572657",
+  "name": "Ecuador"
+ },
+ {
+  "country": "Egypt",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.597118",
+  "name": "Egypt"
+ },
+ {
+  "country": "El Salvador",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.639087",
+  "name": "El Salvador"
+ },
+ {
+  "country": "Equatorial Guinea",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.664367",
+  "name": "Equatorial Guinea"
+ },
+ {
+  "country": "Eritrea",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.687580",
+  "name": "Eritrea"
+ },
+ {
+  "country": "Estonia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.706098",
+  "name": "Estonia"
+ },
+ {
+  "country": "Ethiopia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.730981",
+  "name": "Ethiopia"
+ },
+ {
+  "country": "Falkland Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.753393",
+  "name": "Falkland Islands"
+ },
+ {
+  "country": "Faroe Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.785463",
+  "name": "Faroe Islands"
+ },
+ {
+  "country": "Fiji Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.806235",
+  "name": "Fiji Islands"
+ },
+ {
+  "country": "Finland",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.828863",
+  "name": "Finland"
+ },
+ {
+  "country": "France",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.853451",
+  "name": "France"
+ },
+ {
+  "country": "French Guiana",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.886825",
+  "name": "French Guiana"
+ },
+ {
+  "country": "French Polynesia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.921183",
+  "name": "French Polynesia"
+ },
+ {
+  "country": "French Southern Territories",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.941487",
+  "name": "French Southern Territories"
+ },
+ {
+  "country": "Gabon",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.963174",
+  "name": "Gabon"
+ },
+ {
+  "country": "Gambia The",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:37.986043",
+  "name": "Gambia The"
+ },
+ {
+  "country": "Georgia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.017625",
+  "name": "Georgia"
+ },
+ {
+  "country": "Ghana",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.062377",
+  "name": "Ghana"
+ },
+ {
+  "country": "Gibraltar",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.084442",
+  "name": "Gibraltar"
+ },
+ {
+  "country": "Greece",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.104511",
+  "name": "Greece"
+ },
+ {
+  "country": "Greenland",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.128506",
+  "name": "Greenland"
+ },
+ {
+  "country": "Grenada",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.149606",
+  "name": "Grenada"
+ },
+ {
+  "country": "Guadeloupe",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.172404",
+  "name": "Guadeloupe"
+ },
+ {
+  "country": "Guam",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.195056",
+  "name": "Guam"
+ },
+ {
+  "country": "Guatemala",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.216655",
+  "name": "Guatemala"
+ },
+ {
+  "country": "Guernsey and Alderney",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.238345",
+  "name": "Guernsey and Alderney"
+ },
+ {
+  "country": "Guinea",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.261582",
+  "name": "Guinea"
+ },
+ {
+  "country": "Guinea-Bissau",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.283399",
+  "name": "Guinea-Bissau"
+ },
+ {
+  "country": "Guyana",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.305917",
+  "name": "Guyana"
+ },
+ {
+  "country": "Haiti",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.331409",
+  "name": "Haiti"
+ },
+ {
+  "country": "Heard Island and McDonald Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.351839",
+  "name": "Heard Island and McDonald Islands"
+ },
+ {
+  "country": "Honduras",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.373797",
+  "name": "Honduras"
+ },
+ {
+  "country": "Hong Kong S.A.R.",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.398043",
+  "name": "Hong Kong S.A.R."
+ },
+ {
+  "country": "Hungary",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.418705",
+  "name": "Hungary"
+ },
+ {
+  "country": "Iceland",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.440111",
+  "name": "Iceland"
+ },
+ {
+  "country": "Indonesia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.485088",
+  "name": "Indonesia"
+ },
+ {
+  "country": "Iran",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.508772",
+  "name": "Iran"
+ },
+ {
+  "country": "Iraq",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.529698",
+  "name": "Iraq"
+ },
+ {
+  "country": "Ireland",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.551474",
+  "name": "Ireland"
+ },
+ {
+  "country": "Israel",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.572911",
+  "name": "Israel"
+ },
+ {
+  "country": "Italy",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.595961",
+  "name": "Italy"
+ },
+ {
+  "country": "Jamaica",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.620462",
+  "name": "Jamaica"
+ },
+ {
+  "country": "Japan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.639957",
+  "name": "Japan"
+ },
+ {
+  "country": "Jersey",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.662035",
+  "name": "Jersey"
+ },
+ {
+  "country": "Jordan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.684962",
+  "name": "Jordan"
+ },
+ {
+  "country": "Kazakhstan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.728618",
+  "name": "Kazakhstan"
+ },
+ {
+  "country": "Kenya",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.761940",
+  "name": "Kenya"
+ },
+ {
+  "country": "Kiribati",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.805928",
+  "name": "Kiribati"
+ },
+ {
+  "country": "Korea North",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.827905",
+  "name": "Korea North"
+ },
+ {
+  "country": "Korea South",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.852598",
+  "name": "Korea South"
+ },
+ {
+  "country": "Kosovo",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.896236",
+  "name": "Kosovo"
+ },
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.918468",
+  "name": "Kuwait"
+ },
+ {
+  "country": "Kyrgyzstan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.940049",
+  "name": "Kyrgyzstan"
+ },
+ {
+  "country": "Laos",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.962376",
+  "name": "Laos"
+ },
+ {
+  "country": "Latvia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.986535",
+  "name": "Latvia"
+ },
+ {
+  "country": "Lebanon",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.006504",
+  "name": "Lebanon"
+ },
+ {
+  "country": "Lesotho",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.027806",
+  "name": "Lesotho"
+ },
+ {
+  "country": "Liberia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.051746",
+  "name": "Liberia"
+ },
+ {
+  "country": "Libya",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.073463",
+  "name": "Libya"
+ },
+ {
+  "country": "Liechtenstein",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.094782",
+  "name": "Liechtenstein"
+ },
+ {
+  "country": "Lithuania",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.117368",
+  "name": "Lithuania"
+ },
+ {
+  "country": "Luxembourg",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.138997",
+  "name": "Luxembourg"
+ },
+ {
+  "country": "Macau S.A.R.",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.194505",
+  "name": "Macau S.A.R."
+ },
+ {
+  "country": "Macedonia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.217344",
+  "name": "Macedonia"
+ },
+ {
+  "country": "Madagascar",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.239580",
+  "name": "Madagascar"
+ },
+ {
+  "country": "Malawi",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.260623",
+  "name": "Malawi"
+ },
+ {
+  "country": "Malaysia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.284995",
+  "name": "Malaysia"
+ },
+ {
+  "country": "Maldives",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.305257",
+  "name": "Maldives"
+ },
+ {
+  "country": "Mali",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.329003",
+  "name": "Mali"
+ },
+ {
+  "country": "Malta",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.351218",
+  "name": "Malta"
+ },
+ {
+  "country": "Man (Isle of)",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.372189",
+  "name": "Man (Isle of)"
+ },
+ {
+  "country": "Marshall Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.394034",
+  "name": "Marshall Islands"
+ },
+ {
+  "country": "Martinique",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.416476",
+  "name": "Martinique"
+ },
+ {
+  "country": "Mauritania",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.438224",
+  "name": "Mauritania"
+ },
+ {
+  "country": "Mauritius",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.460163",
+  "name": "Mauritius"
+ },
+ {
+  "country": "Mayotte",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.483441",
+  "name": "Mayotte"
+ },
+ {
+  "country": "Mexico",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.504596",
+  "name": "Mexico"
+ },
+ {
+  "country": "Micronesia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.527005",
+  "name": "Micronesia"
+ },
+ {
+  "country": "Moldova",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.549750",
+  "name": "Moldova"
+ },
+ {
+  "country": "Monaco",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.571576",
+  "name": "Monaco"
+ },
+ {
+  "country": "Mongolia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.592959",
+  "name": "Mongolia"
+ },
+ {
+  "country": "Montenegro",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.616996",
+  "name": "Montenegro"
+ },
+ {
+  "country": "Montserrat",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.640404",
+  "name": "Montserrat"
+ },
+ {
+  "country": "Morocco",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.660804",
+  "name": "Morocco"
+ },
+ {
+  "country": "Mozambique",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.683058",
+  "name": "Mozambique"
+ },
+ {
+  "country": "Myanmar",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.704011",
+  "name": "Myanmar"
+ },
+ {
+  "country": "Namibia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.726573",
+  "name": "Namibia"
+ },
+ {
+  "country": "Nauru",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.749711",
+  "name": "Nauru"
+ },
+ {
+  "country": "Nepal",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.771775",
+  "name": "Nepal"
+ },
+ {
+  "country": "Netherlands The",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.793809",
+  "name": "Netherlands The"
+ },
+ {
+  "country": "New Caledonia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.820689",
+  "name": "New Caledonia"
+ },
+ {
+  "country": "New Zealand",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.841598",
+  "name": "New Zealand"
+ },
+ {
+  "country": "Nicaragua",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.859957",
+  "name": "Nicaragua"
+ },
+ {
+  "country": "Niger",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.882884",
+  "name": "Niger"
+ },
+ {
+  "country": "Nigeria",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.903950",
+  "name": "Nigeria"
+ },
+ {
+  "country": "Niue",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.926037",
+  "name": "Niue"
+ },
+ {
+  "country": "Norfolk Island",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.949494",
+  "name": "Norfolk Island"
+ },
+ {
+  "country": "Northern Mariana Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.971148",
+  "name": "Northern Mariana Islands"
+ },
+ {
+  "country": "Norway",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:39.992527",
+  "name": "Norway"
+ },
+ {
+  "country": "Oman",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.016662",
+  "name": "Oman"
+ },
+ {
+  "country": "Pakistan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.094346",
+  "name": "Pakistan"
+ },
+ {
+  "country": "Palau",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.117698",
+  "name": "Palau"
+ },
+ {
+  "country": "Palestinian Territory Occupied",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.137719",
+  "name": "Palestinian Territory Occupied"
+ },
+ {
+  "country": "Panama",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.159241",
+  "name": "Panama"
+ },
+ {
+  "country": "Papua new Guinea",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.182691",
+  "name": "Papua new Guinea"
+ },
+ {
+  "country": "Paraguay",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.204832",
+  "name": "Paraguay"
+ },
+ {
+  "country": "Peru",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.226089",
+  "name": "Peru"
+ },
+ {
+  "country": "Philippines",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.252530",
+  "name": "Philippines"
+ },
+ {
+  "country": "Pitcairn Island",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.271776",
+  "name": "Pitcairn Island"
+ },
+ {
+  "country": "Poland",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.292996",
+  "name": "Poland"
+ },
+ {
+  "country": "Portugal",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.316862",
+  "name": "Portugal"
+ },
+ {
+  "country": "Puerto Rico",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.338333",
+  "name": "Puerto Rico"
+ },
+ {
+  "country": "Qatar",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.359267",
+  "name": "Qatar"
+ },
+ {
+  "country": "Reunion",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.382691",
+  "name": "Reunion"
+ },
+ {
+  "country": "Romania",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.404609",
+  "name": "Romania"
+ },
+ {
+  "country": "Russia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.425759",
+  "name": "Russia"
+ },
+ {
+  "country": "Rwanda",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.450427",
+  "name": "Rwanda"
+ },
+ {
+  "country": "Saint Helena",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.470768",
+  "name": "Saint Helena"
+ },
+ {
+  "country": "Saint Kitts And Nevis",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.492236",
+  "name": "Saint Kitts And Nevis"
+ },
+ {
+  "country": "Saint Lucia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.515635",
+  "name": "Saint Lucia"
+ },
+ {
+  "country": "Saint Pierre and Miquelon",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.537903",
+  "name": "Saint Pierre and Miquelon"
+ },
+ {
+  "country": "Saint Vincent And The Grenadines",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.558954",
+  "name": "Saint Vincent And The Grenadines"
+ },
+ {
+  "country": "Saint-Barthelemy",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.583344",
+  "name": "Saint-Barthelemy"
+ },
+ {
+  "country": "Saint-Martin (French part)",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.604979",
+  "name": "Saint-Martin (French part)"
+ },
+ {
+  "country": "Samoa",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.625114",
+  "name": "Samoa"
+ },
+ {
+  "country": "San Marino",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.650026",
+  "name": "San Marino"
+ },
+ {
+  "country": "Sao Tome and Principe",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.760624",
+  "name": "Sao Tome and Principe"
+ },
+ {
+  "country": "Saudi Arabia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.796255",
+  "name": "Saudi Arabia"
+ },
+ {
+  "country": "Senegal",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.825589",
+  "name": "Senegal"
+ },
+ {
+  "country": "Serbia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.849138",
+  "name": "Serbia"
+ },
+ {
+  "country": "Seychelles",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.872867",
+  "name": "Seychelles"
+ },
+ {
+  "country": "Sierra Leone",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.891118",
+  "name": "Sierra Leone"
+ },
+ {
+  "country": "Singapore",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.914735",
+  "name": "Singapore"
+ },
+ {
+  "country": "Sint Maarten (Dutch part)",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.936727",
+  "name": "Sint Maarten (Dutch part)"
+ },
+ {
+  "country": "Slovakia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.957994",
+  "name": "Slovakia"
+ },
+ {
+  "country": "Slovenia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:40.981302",
+  "name": "Slovenia"
+ },
+ {
+  "country": "Solomon Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.003112",
+  "name": "Solomon Islands"
+ },
+ {
+  "country": "Somalia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.025157",
+  "name": "Somalia"
+ },
+ {
+  "country": "South Africa",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.048008",
+  "name": "South Africa"
+ },
+ {
+  "country": "South Georgia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.071842",
+  "name": "South Georgia"
+ },
+ {
+  "country": "South Sudan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.091704",
+  "name": "South Sudan"
+ },
+ {
+  "country": "Spain",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.124173",
+  "name": "Spain"
+ },
+ {
+  "country": "Sri Lanka",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.148219",
+  "name": "Sri Lanka"
+ },
+ {
+  "country": "Sudan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.169678",
+  "name": "Sudan"
+ },
+ {
+  "country": "Suriname",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.190943",
+  "name": "Suriname"
+ },
+ {
+  "country": "Svalbard And Jan Mayen Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.216279",
+  "name": "Svalbard And Jan Mayen Islands"
+ },
+ {
+  "country": "Swaziland",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.236042",
+  "name": "Swaziland"
+ },
+ {
+  "country": "Sweden",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.257731",
+  "name": "Sweden"
+ },
+ {
+  "country": "Switzerland",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.281034",
+  "name": "Switzerland"
+ },
+ {
+  "country": "Syria",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.302822",
+  "name": "Syria"
+ },
+ {
+  "country": "Taiwan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.323735",
+  "name": "Taiwan"
+ },
+ {
+  "country": "Tajikistan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.347872",
+  "name": "Tajikistan"
+ },
+ {
+  "country": "Tanzania",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.369578",
+  "name": "Tanzania"
+ },
+ {
+  "country": "Thailand",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.390910",
+  "name": "Thailand"
+ },
+ {
+  "country": "Togo",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.414178",
+  "name": "Togo"
+ },
+ {
+  "country": "Tokelau",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.437145",
+  "name": "Tokelau"
+ },
+ {
+  "country": "Tonga",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.459453",
+  "name": "Tonga"
+ },
+ {
+  "country": "Trinidad And Tobago",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.483016",
+  "name": "Trinidad And Tobago"
+ },
+ {
+  "country": "Tunisia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.504159",
+  "name": "Tunisia"
+ },
+ {
+  "country": "Turkey",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.523640",
+  "name": "Turkey"
+ },
+ {
+  "country": "Turkmenistan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.547153",
+  "name": "Turkmenistan"
+ },
+ {
+  "country": "Turks And Caicos Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.569984",
+  "name": "Turks And Caicos Islands"
+ },
+ {
+  "country": "Tuvalu",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.590878",
+  "name": "Tuvalu"
+ },
+ {
+  "country": "Uganda",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.614422",
+  "name": "Uganda"
+ },
+ {
+  "country": "Ukraine",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.636298",
+  "name": "Ukraine"
+ },
+ {
+  "country": "United Arab Emirates",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.657010",
+  "name": "United Arab Emirates"
+ },
+ {
+  "country": "United Kingdom",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.679777",
+  "name": "United Kingdom"
+ },
+ {
+  "country": "United States Minor Outlying Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.859213",
+  "name": "United States Minor Outlying Islands"
+ },
+ {
+  "country": "Uruguay",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.881601",
+  "name": "Uruguay"
+ },
+ {
+  "country": "Uzbekistan",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.906625",
+  "name": "Uzbekistan"
+ },
+ {
+  "country": "Vanuatu",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.923124",
+  "name": "Vanuatu"
+ },
+ {
+  "country": "Vatican City State (Holy See)",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.945533",
+  "name": "Vatican City State (Holy See)"
+ },
+ {
+  "country": "Venezuela",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.968865",
+  "name": "Venezuela"
+ },
+ {
+  "country": "Vietnam",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.989961",
+  "name": "Vietnam"
+ },
+ {
+  "country": "Virgin Islands (British)",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:42.013065",
+  "name": "Virgin Islands (British)"
+ },
+ {
+  "country": "Virgin Islands (US)",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:42.035932",
+  "name": "Virgin Islands (US)"
+ },
+ {
+  "country": "Wallis And Futuna Islands",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:42.058512",
+  "name": "Wallis And Futuna Islands"
+ },
+ {
+  "country": "Western Sahara",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:42.183495",
+  "name": "Western Sahara"
+ },
+ {
+  "country": "Yemen",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:42.235164",
+  "name": "Yemen"
+ },
+ {
+  "country": "Zambia",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:42.270104",
+  "name": "Zambia"
+ },
+ {
+  "country": "Zimbabwe",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:42.448374",
+  "name": "Zimbabwe"
+ },
+ {
+  "country": "India",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.463615",
+  "name": "India"
+ },
+ {
+  "country": "Germany",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:38.038352",
+  "name": "Germany"
+ },
+ {
+  "country": "United States",
+  "docstatus": 0,
+  "doctype": "Country Values",
+  "modified": "2024-09-25 09:49:41.821259",
+  "name": "United States"
+ }
+]

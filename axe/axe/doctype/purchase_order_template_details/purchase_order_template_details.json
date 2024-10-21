@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-08 10:57:24.899403",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "attribute_name",
+  "column_break_ppkw",
+  "bought",
+  "column_break_gjwr",
+  "condition",
+  "column_break_ooco",
+  "specification"
+ ],
+ "fields": [
+  {
+   "fieldname": "attribute_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Attribute Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ppkw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bought",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Bought",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_gjwr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "condition",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Condition",
+   "options": "\n<\n>\n=<\n>=\n="
+  },
+  {
+   "fieldname": "column_break_ooco",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Specification"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-08 10:57:24.899403",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Purchase Order Template Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

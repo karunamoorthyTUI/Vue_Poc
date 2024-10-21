@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-30 16:18:29.049094",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_hspf",
+  "product",
+  "alt_view",
+  "uid",
+  "price",
+  "alloc_qty",
+  "max",
+  "column_break_cmvj",
+  "sold_as",
+  "sku",
+  "quantity",
+  "attributes",
+  "restrict_qty",
+  "min"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_hspf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "product",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Stoked As",
+   "options": "Item Master",
+   "read_only": 1
+  },
+  {
+   "fieldname": "alt_view",
+   "fieldtype": "Data",
+   "label": "ALT VIEW"
+  },
+  {
+   "default": "view",
+   "fieldname": "uid",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "UID'S",
+   "options": "View Master",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_cmvj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sold_as",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sold As"
+  },
+  {
+   "fieldname": "sku",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "SKU",
+   "options": "SKU Master"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price"
+  },
+  {
+   "fieldname": "alloc_qty",
+   "fieldtype": "Int",
+   "label": "Allocate Quantity"
+  },
+  {
+   "fieldname": "max",
+   "fieldtype": "Int",
+   "label": "Max"
+  },
+  {
+   "fieldname": "attributes",
+   "fieldtype": "Data",
+   "label": "Attributes"
+  },
+  {
+   "default": "0",
+   "fieldname": "restrict_qty",
+   "fieldtype": "Check",
+   "label": "Restrict Quantity"
+  },
+  {
+   "fieldname": "min",
+   "fieldtype": "Int",
+   "label": "Min"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Quantity",
+   "options": "Inventory Master"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-21 12:47:21.086785",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Sales Order Active Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

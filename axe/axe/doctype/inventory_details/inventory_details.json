@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "autoname": "format:INV-{###}",
+ "creation": "2024-10-01 10:43:55.287327",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "inventory",
+  "gross_weight",
+  "attributes",
+  "column_break_pttm",
+  "sku",
+  "net_weight",
+  "column_break_vkll",
+  "bin",
+  "tare_weight",
+  "section_break_oujk",
+  "table_bdug"
+ ],
+ "fields": [
+  {
+   "fieldname": "inventory",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Inventory",
+   "options": "Inventory Master",
+   "reqd": 1
+  },
+  {
+   "fieldname": "bin",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "BIN",
+   "options": "BIN Master",
+   "reqd": 1
+  },
+  {
+   "fieldname": "net_weight",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Net Weight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_pttm",
+   "fieldtype": "Column Break",
+   "is_virtual": 1
+  },
+  {
+   "fetch_from": "inventory.sku",
+   "fieldname": "sku",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "SKU",
+   "options": "SKU Master",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gross_weight",
+   "fieldtype": "Float",
+   "label": "Gross Weight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_vkll",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tare_weight",
+   "fieldtype": "Float",
+   "label": "Tare Weight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_oujk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_bdug",
+   "fieldtype": "Table",
+   "options": "Inventory Details Child"
+  },
+  {
+   "fieldname": "attributes",
+   "fieldtype": "Link",
+   "label": "Attributes",
+   "options": "Item Attribute Option Mapping",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-16 13:13:32.467279",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Inventory Details",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

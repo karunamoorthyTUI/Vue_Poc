@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:uom",
+ "creation": "2024-09-30 14:43:25.702480",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "uom",
+  "column_break_zwif",
+  "uom_description",
+  "column_break_xszy",
+  "conversion_quantity"
+ ],
+ "fields": [
+  {
+   "fieldname": "uom",
+   "fieldtype": "Data",
+   "label": "UOM",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_zwif",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "uom_description",
+   "fieldtype": "Data",
+   "label": "UOM Description"
+  },
+  {
+   "fieldname": "column_break_xszy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "conversion_quantity",
+   "fieldtype": "Data",
+   "label": "Conversion Quantity"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-30 15:52:28.237937",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "UOM Master",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "uom",
+ "translated_doctype": 1
+}

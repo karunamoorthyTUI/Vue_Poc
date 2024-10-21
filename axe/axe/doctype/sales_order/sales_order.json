@@ -1,0 +1,225 @@
+{
+ "actions": [],
+ "autoname": "format:SO-{MM}-{YYYY}-{#####}",
+ "creation": "2024-09-27 11:03:24.383469",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "general_tab",
+  "section_break_",
+  "account",
+  "effective_date",
+  "sla_type",
+  "so_tags",
+  "column_break_tggs",
+  "location",
+  "expiration_date",
+  "sla_days",
+  "order_alert",
+  "column_break_bgbg",
+  "sales",
+  "incoterms",
+  "shipping_facility",
+  "column_break_ooaj",
+  "csr",
+  "payment_terms",
+  "client_ref",
+  "section_break_obyy",
+  "so_notes",
+  "pricing_tab",
+  "choose_product",
+  "section_break_qjcm",
+  "table_qcsb",
+  "service_tab",
+  "section_break_goiz",
+  "table_qhst"
+ ],
+ "fields": [
+  {
+   "fieldname": "account",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Account",
+   "options": "Accounts",
+   "reqd": 1
+  },
+  {
+   "fieldname": "effective_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Effective Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sla_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "SLA Type",
+   "options": "\nBusiness Days\nCalender Days",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tggs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "expiration_date",
+   "fieldtype": "Date",
+   "label": "Expiration Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sla_days",
+   "fieldtype": "Int",
+   "label": "SLA Days",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bgbg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sales",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sales",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "incoterms",
+   "fieldtype": "Select",
+   "label": "Incoterms",
+   "options": "\nCIF\nCRF\nDAP\nEXW\nFAS\nFOB",
+   "reqd": 1
+  },
+  {
+   "fieldname": "shipping_facility",
+   "fieldtype": "Select",
+   "label": "Shipping Facility",
+   "options": "\nNework City\ncincinnati\norlando\ndenver",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ooaj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "csr",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "CSR",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Int",
+   "label": "Payment Terms",
+   "reqd": 1
+  },
+  {
+   "fieldname": "general_tab",
+   "fieldtype": "Tab Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "so_tags",
+   "fieldtype": "Select",
+   "label": "SO Tags",
+   "options": "\ntag 1\ntag 2"
+  },
+  {
+   "default": "0",
+   "fieldname": "order_alert",
+   "fieldtype": "Check",
+   "label": "Order Alert",
+   "read_only": 1
+  },
+  {
+   "fieldname": "client_ref",
+   "fieldtype": "Data",
+   "label": "Client Ref"
+  },
+  {
+   "fieldname": "section_break_obyy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "so_notes",
+   "fieldtype": "Text Editor",
+   "label": "SO Notes"
+  },
+  {
+   "fieldname": "section_break_",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pricing_tab",
+   "fieldtype": "Tab Break",
+   "label": "Pricing"
+  },
+  {
+   "fieldname": "choose_product",
+   "fieldtype": "Select",
+   "label": "Choose Product",
+   "options": "\nResale\nScrap"
+  },
+  {
+   "fieldname": "section_break_qjcm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_qcsb",
+   "fieldtype": "Table",
+   "label": "product",
+   "options": "Sales Order Active Child"
+  },
+  {
+   "fieldname": "service_tab",
+   "fieldtype": "Tab Break",
+   "label": "Services"
+  },
+  {
+   "fieldname": "section_break_goiz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_qhst",
+   "fieldtype": "Table",
+   "options": "Sales Order Service Child"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-08 17:37:46.226108",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Sales Order",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

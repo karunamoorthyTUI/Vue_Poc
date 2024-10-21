@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-10-01 10:03:10.515216",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "stocked_as",
+  "group",
+  "column_break_sein",
+  "sold_as",
+  "alt_view"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Data",
+   "label": "Item",
+   "unique": 1
+  },
+  {
+   "fieldname": "stocked_as",
+   "fieldtype": "Data",
+   "label": "stocked_as"
+  },
+  {
+   "fieldname": "group",
+   "fieldtype": "Data",
+   "label": "group"
+  },
+  {
+   "fieldname": "column_break_sein",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sold_as",
+   "fieldtype": "Data",
+   "label": "sold_as"
+  },
+  {
+   "fieldname": "alt_view",
+   "fieldtype": "Data",
+   "label": "alt_view"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-01 10:14:53.729965",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Sales Order Product",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "item"
+}

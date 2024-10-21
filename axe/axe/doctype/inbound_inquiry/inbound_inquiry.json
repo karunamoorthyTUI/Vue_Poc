@@ -1,0 +1,186 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-09-25 09:28:41.644394",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "order_tab",
+  "order_section",
+  "account_name",
+  "purchase_order",
+  "sla_type",
+  "naming_series",
+  "column_break_emvx",
+  "locations",
+  "csr",
+  "sla_days",
+  "column_break_uncz",
+  "receving_facility",
+  "sales",
+  "po_terms",
+  "column_break_rcuf",
+  "order_type",
+  "onsite_contact",
+  "order_alert",
+  "section_break_tgyk",
+  "order_notes",
+  "logistics_tab",
+  "logistics"
+ ],
+ "fields": [
+  {
+   "fieldname": "account_name",
+   "fieldtype": "Link",
+   "label": "Account",
+   "options": "Accounts",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sla_type",
+   "fieldtype": "Select",
+   "label": "SLA Type",
+   "options": "\nBusiness Days\nCalender Days",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_emvx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "locations",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Locations",
+   "options": "Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "csr",
+   "fieldtype": "Link",
+   "label": "CSR",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "sla_days",
+   "fieldtype": "Int",
+   "label": "SLA Days"
+  },
+  {
+   "fieldname": "column_break_uncz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "receving_facility",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Receving Facility",
+   "options": "Receiving Facility",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sales",
+   "fieldtype": "Link",
+   "label": "Sales",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "po_terms",
+   "fieldtype": "Int",
+   "label": "PO Terms"
+  },
+  {
+   "fieldname": "column_break_rcuf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "onsite_contact",
+   "fieldtype": "Select",
+   "label": "Onsite Contact"
+  },
+  {
+   "default": "0",
+   "fieldname": "order_alert",
+   "fieldtype": "Check",
+   "label": "Order Alert",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_tgyk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "order_notes",
+   "fieldtype": "Text Editor",
+   "label": "Order Notes"
+  },
+  {
+   "fieldname": "order_type",
+   "fieldtype": "Select",
+   "label": "Select Order Type",
+   "options": "\nPurchase Order\nOpen Order",
+   "reqd": 1
+  },
+  {
+   "fieldname": "purchase_order",
+   "fieldtype": "Link",
+   "label": "Select Purchase Order",
+   "options": "Purchase Order"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "INO-AXE-"
+  },
+  {
+   "fieldname": "order_tab",
+   "fieldtype": "Tab Break",
+   "label": "Order"
+  },
+  {
+   "fieldname": "logistics_tab",
+   "fieldtype": "Tab Break",
+   "label": "Logistics"
+  },
+  {
+   "fieldname": "order_section",
+   "fieldtype": "Section Break",
+   "label": "Order"
+  },
+  {
+   "fieldname": "logistics",
+   "fieldtype": "Table",
+   "label": "Logistics",
+   "options": "Inbound Logistics"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  
+ ],
+ "modified": "2024-10-09 10:07:38.150123",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Inbound Inquiry",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

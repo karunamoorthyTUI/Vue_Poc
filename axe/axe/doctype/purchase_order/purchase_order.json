@@ -1,0 +1,248 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PORD-{###}",
+ "creation": "2024-10-07 19:45:29.129551",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "general_tab",
+  "account",
+  "expiration_date",
+  "po_tags",
+  "column_break_bcza",
+  "effective_date",
+  "client_referral",
+  "csr",
+  "column_break_dzsh",
+  "reveiving_facilities",
+  "sales",
+  "payment_terms",
+  "column_break_awcu",
+  "location",
+  "incoterms",
+  "order_alert",
+  "section_break_usgg",
+  "notes",
+  "pricing_tab",
+  "section_break_hzzi",
+  "load_from_template",
+  "column_break_pmdc",
+  "load_from_products",
+  "section_break_jubx",
+  "active_items",
+  "service_tab",
+  "table_zldc",
+  "documents_tab",
+  "column_break_sypi",
+  "column_break_wlps",
+  "type",
+  "column_break_xfnq",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_tab",
+   "fieldtype": "Tab Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "account",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Account",
+   "options": "Accounts",
+   "reqd": 1
+  },
+  {
+   "fieldname": "expiration_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Expiration Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "po_tags",
+   "fieldtype": "Select",
+   "label": "PO Tags",
+   "options": "\nTag 1\nTag 2"
+  },
+  {
+   "fieldname": "column_break_bcza",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "effective_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Effective Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "client_referral",
+   "fieldtype": "Data",
+   "label": "Client Referral"
+  },
+  {
+   "fieldname": "csr",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "CSR",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_dzsh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reveiving_facilities",
+   "fieldtype": "Link",
+   "label": "Receiving Facilities",
+   "options": "Receiving Facility",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sales",
+   "fieldtype": "Link",
+   "label": "Sales",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Data",
+   "label": "Payment Terms",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_awcu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Select",
+   "label": "Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "incoterms",
+   "fieldtype": "Select",
+   "label": "Incoterms",
+   "options": "\nCIF\nCRF\nDAP\nEXW\nFAS\nFOB",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "order_alert",
+   "fieldtype": "Check",
+   "label": "Order Alert",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_usgg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "pricing_tab",
+   "fieldtype": "Tab Break",
+   "label": "Pricing"
+  },
+  {
+   "fieldname": "section_break_hzzi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "load_from_template",
+   "fieldtype": "Link",
+   "label": "Load From Template",
+   "options": "PO Template"
+  },
+  {
+   "fieldname": "column_break_pmdc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "load_from_products",
+   "fieldtype": "Button",
+   "label": "Load From Products"
+  },
+  {
+   "fieldname": "section_break_jubx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "active_items",
+   "fieldtype": "Table",
+   "label": "Active Items",
+   "options": "Purchase Order Details Child"
+  },
+  {
+   "fieldname": "service_tab",
+   "fieldtype": "Tab Break",
+   "label": "Service"
+  },
+  {
+   "fieldname": "table_zldc",
+   "fieldtype": "Table",
+   "options": "Purchase Order Service"
+  },
+  {
+   "fieldname": "documents_tab",
+   "fieldtype": "Tab Break",
+   "label": "Documents"
+  },
+  {
+   "fieldname": "column_break_sypi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wlps",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "\nLogistics\nShipping"
+  },
+  {
+   "fieldname": "column_break_xfnq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-21 18:47:45.585116",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Purchase Order",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

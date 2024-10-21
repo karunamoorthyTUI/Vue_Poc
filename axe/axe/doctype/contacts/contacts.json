@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "autoname": "field:first_name",
+ "creation": "2024-09-20 16:53:12.924491",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contact_details_section",
+  "first_name",
+  "mobile_number",
+  "column_break_wzhz",
+  "last_name",
+  "title",
+  "column_break_tobe",
+  "email_id",
+  "type",
+  "column_break_kzuf",
+  "office_number",
+  "section_break_gwyf",
+  "loc_card",
+  "column_break_vkin",
+  "notification_card",
+  "section_break_cehi",
+  "notification_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "contact_details_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Details"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "columns": 4,
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "mobile_number",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "column_break_wzhz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Last Name",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title"
+  },
+  {
+   "fieldname": "column_break_tobe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "\nBilling contact\nMain Contact"
+  },
+  {
+   "fieldname": "column_break_kzuf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email ID",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "office_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Office Phone Number"
+  },
+  {
+   "fieldname": "section_break_gwyf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_cehi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "loc_card",
+   "fieldtype": "HTML",
+   "hidden": 1,
+   "label": "Locations"
+  },
+  {
+   "fieldname": "column_break_vkin",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notification_card",
+   "fieldtype": "HTML",
+   "hidden": 1,
+   "label": "Notification"
+  },
+  {
+   "fieldname": "notification_table",
+   "fieldtype": "Table",
+   "hidden": 1,
+   "label": "Notifications",
+   "options": "Notification Child"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-21 10:07:55.461620",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Contacts",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "creation",
+ "sort_order": "ASC",
+ "states": [],
+ "title_field": "first_name"
+}

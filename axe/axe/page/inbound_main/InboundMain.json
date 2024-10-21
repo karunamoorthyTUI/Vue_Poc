@@ -1,0 +1,22 @@
+{
+ "content": null,
+ "creation": "2024-09-24 18:02:16.002910",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-09-24 18:02:16.002910",
+ "modified_by": "Administrator",
+ "module": "Trial",
+ "name": "InboundMain",
+ "owner": "Administrator",
+ "page_name": "InboundMain",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 1
+}

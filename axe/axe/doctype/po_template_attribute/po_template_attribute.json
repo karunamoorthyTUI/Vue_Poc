@@ -1,0 +1,145 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PO_ATT-{###}",
+ "creation": "2024-10-07 14:07:50.142626",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product_name",
+  "column_break_opoz",
+  "description",
+  "section_break_kcvc",
+  "type",
+  "quantity",
+  "column_break_vetj",
+  "fmv_percentage",
+  "min_quantity",
+  "column_break_adxp",
+  "min_fmv",
+  "max_quantity",
+  "column_break_udat",
+  "price",
+  "restrict_quantity",
+  "section_break_cihk",
+  "attribute_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Link",
+   "label": "Product Name",
+   "options": "Item Master"
+  },
+  {
+   "fieldname": "column_break_opoz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_kcvc",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "\nFixed\nFMV"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "column_break_vetj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fmv_percentage",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "FMV Percentage"
+  },
+  {
+   "fieldname": "min_quantity",
+   "fieldtype": "Int",
+   "label": "Min Quantity"
+  },
+  {
+   "fieldname": "column_break_adxp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "min_fmv",
+   "fieldtype": "Currency",
+   "label": "Min FMV"
+  },
+  {
+   "fieldname": "max_quantity",
+   "fieldtype": "Int",
+   "label": "Max Quantity"
+  },
+  {
+   "fieldname": "column_break_udat",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Price"
+  },
+  {
+   "default": "0",
+   "fieldname": "restrict_quantity",
+   "fieldtype": "Check",
+   "label": "Restrict Quantity"
+  },
+  {
+   "fieldname": "section_break_cihk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attribute_details",
+   "fieldtype": "Table",
+   "label": "Attribute Details",
+   "options": "PO Template Attribute Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-10 15:47:27.573044",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "PO Template Attribute",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "description"
+}

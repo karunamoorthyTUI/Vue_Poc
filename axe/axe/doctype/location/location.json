@@ -1,0 +1,261 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2024-09-03 12:25:55.103799",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_wifp",
+  "name1",
+  "city",
+  "locations",
+  "column_break_qskc",
+  "type",
+  "country_",
+  "column_break_slvo",
+  "street_line_one",
+  "state",
+  "column_break_odyz",
+  "street_line_two",
+  "postal_code",
+  "section_break_veey",
+  "contact",
+  "column_break_arzx",
+  "has_restrictions",
+  "section_break_lqor",
+  "count_card",
+  "column_break_wtrl",
+  "contact_count",
+  "section_break_cyuj",
+  "dock_time",
+  "building_details_section",
+  "facility",
+  "column_break_exps",
+  "truck_size",
+  "notes_section",
+  "building_notes",
+  "section_break_yrdq",
+  "supplies",
+  "supplies_notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_qskc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "collapsible": 1,
+   "fieldname": "section_break_wifp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "type",
+   "fieldtype": "Table MultiSelect",
+   "label": "Type",
+   "options": "Type Child",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "state",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "State",
+   "options": "State",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_slvo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_odyz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Table",
+   "ignore_user_permissions": 1,
+   "label": "Contact",
+   "options": "Contact Child",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_veey",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_arzx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "street_line_one",
+   "fieldtype": "Data",
+   "label": "Street1",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "street_line_two",
+   "fieldtype": "Data",
+   "label": "Street 2"
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Data",
+   "label": "Postal Code"
+  },
+  {
+   "default": "No",
+   "fieldname": "has_restrictions",
+   "fieldtype": "Select",
+   "label": "Has Restrictions",
+   "options": "No\nYes"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "country_",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Country",
+   "options": "Country Values",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_lqor",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.has_restrictions==\"Yes\";",
+   "fieldname": "count_card",
+   "fieldtype": "HTML",
+   "label": "Restrictions"
+  },
+  {
+   "fieldname": "column_break_wtrl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_count",
+   "fieldtype": "HTML",
+   "hidden": 1,
+   "label": "Contact"
+  },
+  {
+   "depends_on": "eval:doc.has_restrictions==\"Yes\";",
+   "fieldname": "building_details_section",
+   "fieldtype": "Section Break",
+   "label": "Building details"
+  },
+  {
+   "fieldname": "column_break_exps",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "truck_size",
+   "fieldtype": "Select",
+   "label": "Truck Size",
+   "mandatory_depends_on": "eval:doc.has_restrictions==\"Yes\";",
+   "options": "\n24\n26\n48\n53"
+  },
+  {
+   "depends_on": "eval:doc.has_restrictions==\"Yes\";",
+   "fieldname": "building_notes",
+   "fieldtype": "Text Editor",
+   "label": "Building Notes"
+  },
+  {
+   "fieldname": "section_break_cyuj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.has_restrictions==\"Yes\";",
+   "fieldname": "dock_time",
+   "fieldtype": "Table",
+   "label": "Dock Time",
+   "options": "Dock Time"
+  },
+  {
+   "fieldname": "notes_section",
+   "fieldtype": "Section Break",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "locations",
+   "fieldtype": "Select",
+   "label": "Locations",
+   "options": "\nMain Location\nOther Location"
+  },
+  {
+   "fieldname": "facility",
+   "fieldtype": "Table MultiSelect",
+   "label": "Facility",
+   "mandatory_depends_on": "eval:doc.has_restrictions==\"Yes\";",
+   "options": "Facility"
+  },
+  {
+   "depends_on": "eval:doc.has_restrictions==\"Yes\";",
+   "fieldname": "section_break_yrdq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "supplies_notes",
+   "fieldtype": "Text Editor",
+   "hidden": 1,
+   "label": "Supplies Notes"
+  },
+  {
+   "fieldname": "supplies",
+   "fieldtype": "Table",
+   "label": "Supplies",
+   "options": "Supplies"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-21 13:21:21.507567",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Location",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "name1",
+ "translated_doctype": 1
+}

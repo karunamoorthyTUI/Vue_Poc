@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-07 14:48:59.597189",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bought_as",
+  "tags",
+  "resale_permission",
+  "column_break_zcdy",
+  "stocked_as",
+  "groups",
+  "priceuom",
+  "column_break_rpaw",
+  "alt_view",
+  "service",
+  "scrap_priceunit",
+  "column_break_dvst",
+  "description",
+  "uom",
+  "quantity"
+ ],
+ "fields": [
+  {
+   "fieldname": "stocked_as",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Stocked As",
+   "options": "Item Master"
+  },
+  {
+   "fieldname": "bought_as",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Bought As",
+   "options": "PO Template Details"
+  },
+  {
+   "fetch_from": "stocked_as.item_type",
+   "fieldname": "alt_view",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Alt View"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "groups",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Groups"
+  },
+  {
+   "fieldname": "tags",
+   "fieldtype": "Select",
+   "label": "Tags",
+   "options": "\nTag 1\nTag 2"
+  },
+  {
+   "fieldname": "resale_permission",
+   "fieldtype": "Data",
+   "label": "Resale Permission"
+  },
+  {
+   "fieldname": "column_break_zcdy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "priceuom",
+   "fieldtype": "Data",
+   "label": "Price/UOM"
+  },
+  {
+   "fieldname": "column_break_rpaw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "service",
+   "fieldtype": "Data",
+   "label": "Service"
+  },
+  {
+   "fetch_from": "bought_as.price",
+   "fieldname": "scrap_priceunit",
+   "fieldtype": "Data",
+   "label": "Scrap Price/Unit"
+  },
+  {
+   "fieldname": "column_break_dvst",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "bought_as.uom",
+   "fieldname": "uom",
+   "fieldtype": "Data",
+   "label": "UOM"
+  },
+  {
+   "fetch_from": "bought_as.quantity",
+   "fieldname": "quantity",
+   "fieldtype": "Data",
+   "label": "Quantity"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-16 10:51:33.150834",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "PO Template Detail Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

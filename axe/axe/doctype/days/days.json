@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:days",
+ "creation": "2024-10-04 12:25:47.211176",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "days"
+ ],
+ "fields": [
+  {
+   "fieldname": "days",
+   "fieldtype": "Data",
+   "label": "Days",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-21 13:14:02.468993",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Days",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

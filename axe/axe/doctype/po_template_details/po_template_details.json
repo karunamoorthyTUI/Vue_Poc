@@ -1,0 +1,203 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{###}-{stocked_as}",
+ "creation": "2024-10-07 14:14:29.086678",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "template_name",
+  "description",
+  "column_break_vpei",
+  "stocked_as",
+  "scrap_section",
+  "uom",
+  "restrict_uom",
+  "column_break_rzgg",
+  "price",
+  "restriction_min",
+  "column_break_xaxf",
+  "quantity",
+  "restriction_max",
+  "column_break_ajpk",
+  "restrict_quantity",
+  "resale_section",
+  "resale",
+  "resale_details",
+  "product_service_section",
+  "product_service",
+  "section_break_gibz",
+  "all_inclusive",
+  "secure",
+  "column_break_jpii",
+  "inclusive_price",
+  "secure_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "template_name",
+   "fieldtype": "Data",
+   "label": "Template Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_vpei",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stocked_as",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Stocked As",
+   "options": "Item Master",
+   "reqd": 1
+  },
+  {
+   "fieldname": "scrap_section",
+   "fieldtype": "Section Break",
+   "label": "Scrap"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "UOM",
+   "options": "UOM Master"
+  },
+  {
+   "fieldname": "restrict_uom",
+   "fieldtype": "Select",
+   "label": "Restrict UOM",
+   "options": "\nPercentage\nSelected UOM"
+  },
+  {
+   "fieldname": "column_break_rzgg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Price"
+  },
+  {
+   "fieldname": "restriction_min",
+   "fieldtype": "Int",
+   "label": "Restriction Min"
+  },
+  {
+   "fieldname": "column_break_xaxf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "restriction_max",
+   "fieldtype": "Int",
+   "label": "Restriction Max"
+  },
+  {
+   "fieldname": "column_break_ajpk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "restrict_quantity",
+   "fieldtype": "Check",
+   "label": "Restrict Quantity"
+  },
+  {
+   "fieldname": "resale_section",
+   "fieldtype": "Section Break",
+   "label": "Resale"
+  },
+  {
+   "fieldname": "resale",
+   "fieldtype": "Select",
+   "label": "Resale",
+   "options": "Allowed\nCredit"
+  },
+  {
+   "fieldname": "product_service_section",
+   "fieldtype": "Section Break",
+   "label": "Product Service"
+  },
+  {
+   "fieldname": "section_break_gibz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "all_inclusive",
+   "fieldtype": "Check",
+   "label": "All Inclusive"
+  },
+  {
+   "default": "0",
+   "fieldname": "secure",
+   "fieldtype": "Check",
+   "label": "Secure"
+  },
+  {
+   "fieldname": "column_break_jpii",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inclusive_price",
+   "fieldtype": "Currency",
+   "label": "Inclusive Price"
+  },
+  {
+   "fieldname": "secure_price",
+   "fieldtype": "Currency",
+   "label": "Secure Price"
+  },
+  {
+   "fieldname": "product_service",
+   "fieldtype": "Table",
+   "options": "PO Template Service Details"
+  },
+  {
+   "fieldname": "resale_details",
+   "fieldtype": "Table",
+   "label": "Details",
+   "options": "PO Template Attribute Child"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-21 17:31:04.584059",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "PO Template Details",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

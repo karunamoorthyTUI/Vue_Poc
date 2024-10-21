@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:item_name",
+ "creation": "2024-09-30 14:29:29.301059",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "item_name",
+  "item_type",
+  "uom",
+  "inventory_type",
+  "column_break_ihwx",
+  "is_attribute_",
+  "data_bearing_item_",
+  "is_unit_count_",
+  "is_shred_product_",
+  "is_mixed_",
+  "is_output_shred_product_",
+  "is_parent_"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Item Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "item_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Item Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "UOM",
+   "options": "UOM Master",
+   "reqd": 1
+  },
+  {
+   "fieldname": "inventory_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Inventory Type",
+   "options": "Inventory Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ihwx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_attribute_",
+   "fieldtype": "Check",
+   "label": "Is Attribute ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "data_bearing_item_",
+   "fieldtype": "Check",
+   "label": "Data bearing Item ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_unit_count_",
+   "fieldtype": "Check",
+   "label": "Is Unit count ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_shred_product_",
+   "fieldtype": "Check",
+   "label": "Is Shred Product ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_mixed_",
+   "fieldtype": "Check",
+   "label": "is Mixed ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_output_shred_product_",
+   "fieldtype": "Check",
+   "label": "is Output Shred Product ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_parent_",
+   "fieldtype": "Check",
+   "label": "Is Parent ?"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-16 09:49:45.442583",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Item Master",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "item_name",
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "item_name",
+ "translated_doctype": 1
+}

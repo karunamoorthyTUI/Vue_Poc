@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "autoname": "format:IMM-{###}",
+ "creation": "2024-09-30 15:03:33.376480",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "parent_item",
+  "child_item",
+  "category"
+ ],
+ "fields": [
+  {
+   "fieldname": "parent_item",
+   "fieldtype": "Link",
+   "label": "Parent Item",
+   "link_filters": "[[\"ItemMaster\",\"is_parent_\",\"=\",1]]",
+   "options": "Item Master"
+  },
+  {
+   "fieldname": "child_item",
+   "fieldtype": "Link",
+   "label": "Child Item",
+   "link_filters": "[[\"ItemMaster\",\"is_parent_\",\"=\",0]]",
+   "options": "Item Master"
+  },
+  {
+   "fetch_from": "parent_item.item_type",
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-18 15:15:33.346038",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Item Mapping Master",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "child_item",
+ "translated_doctype": 1
+}

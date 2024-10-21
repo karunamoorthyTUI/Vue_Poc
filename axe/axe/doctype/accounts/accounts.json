@@ -1,0 +1,196 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:account_name",
+ "creation": "2024-10-08 16:20:28.959891",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "account_tab",
+  "account_details_section",
+  "account_name",
+  "so_percentage",
+  "sales_contact",
+  "column_break_ilid",
+  "types",
+  "po_percentage",
+  "csr",
+  "column_break_bwzu",
+  "so_terms",
+  "sla_type",
+  "incoterms",
+  "column_break_bsxu",
+  "po__terms",
+  "sla_days",
+  "status",
+  "section_break_ykff",
+  "notes",
+  "section_break_oljy",
+  "location",
+  "column_break_eawg"
+ ],
+ "fields": [
+  {
+   "fieldname": "account_tab",
+   "fieldtype": "Tab Break",
+   "label": "Account"
+  },
+  {
+   "fieldname": "account_details_section",
+   "fieldtype": "Section Break",
+   "label": "Account Details"
+  },
+  {
+   "fieldname": "account_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Account Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "sla_type",
+   "fieldtype": "Select",
+   "label": "SLA Type",
+   "options": "\nBusiness days\nCalender days",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "mandatory_depends_on": "eval:doc.status == 1;",
+   "options": "\nActive\nInactive"
+  },
+  {
+   "fieldname": "column_break_ilid",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sla_days",
+   "fieldtype": "Int",
+   "label": "SLA Days",
+   "reqd": 1
+  },
+  {
+   "fieldname": "incoterms",
+   "fieldtype": "Select",
+   "label": "Incoterms",
+   "options": "\nCIF\nCRF\nDAP\nEXW\nFAS\nFOB"
+  },
+  {
+   "fieldname": "types",
+   "fieldtype": "Table MultiSelect",
+   "label": "Types",
+   "options": "Type Child",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "column_break_bwzu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "so_percentage",
+   "fieldtype": "Data",
+   "label": "SO Percentage"
+  },
+  {
+   "default": "        ",
+   "fieldname": "so_terms",
+   "fieldtype": "Int",
+   "label": "SO Terms",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "sales_contact",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sales Contact",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_bsxu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "po_percentage",
+   "fieldtype": "Data",
+   "label": "PO Percentage"
+  },
+  {
+   "default": "         ",
+   "fieldname": "po__terms",
+   "fieldtype": "Int",
+   "label": "PO  Terms",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "csr",
+   "fieldtype": "Link",
+   "label": "CSR",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "section_break_ykff",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor",
+   "label": "Notes",
+   "max_height": "75px"
+  },
+  {
+   "fieldname": "section_break_oljy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Table",
+   "label": "Location",
+   "options": "Location Child",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_eawg",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "links": [],
+ "modified": "2024-10-21 13:08:49.255305",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Accounts",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Light Blue",
+   "title": "Inactive"
+  }
+ ],
+ "title_field": "account_name",
+ "translated_doctype": 1
+}

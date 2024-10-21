@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "autoname": "field:options",
+ "creation": "2024-09-03 16:14:07.309318",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "options"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "options",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Options",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-07 17:54:03.668993",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Type Options",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "options"
+}

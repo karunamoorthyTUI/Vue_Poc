@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-10-01 10:06:41.557062",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "inventory_type",
+  "total_weight",
+  "sku",
+  "column_break_vraq",
+  "stocked_as",
+  "total_quantity",
+  "available_weight",
+  "op_cost",
+  "column_break_iuxo",
+  "sold_as",
+  "available_quantity",
+  "item_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "available_quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Available Quantity",
+   "reqd": 1
+  },
+  {
+   "fieldname": "inventory_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Inventory Type",
+   "options": "\nResale\nScrap",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_vraq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total Quantity",
+   "reqd": 1
+  },
+  {
+   "fieldname": "available_weight",
+   "fieldtype": "Int",
+   "label": "Available Weight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "op_cost",
+   "fieldtype": "Currency",
+   "label": "OP Cost"
+  },
+  {
+   "fieldname": "column_break_iuxo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_weight",
+   "fieldtype": "Int",
+   "label": "Total Weight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "item_cost",
+   "fieldtype": "Currency",
+   "label": "Item Cost",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "sku",
+   "fieldtype": "Link",
+   "label": "SKU",
+   "options": "SKU Master",
+   "reqd": 1
+  },
+  {
+   "fieldname": "stocked_as",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Stocked As",
+   "options": "Item Master",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sold_as",
+   "fieldtype": "Data",
+   "label": "Sold As"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-21 10:45:34.579277",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Inventory Master",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "stocked_as",
+ "translated_doctype": 1
+}

@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-03 17:39:24.721153",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document_type",
+  "portal_access",
+  "auto_email",
+  "inbound",
+  "outbound"
+ ],
+ "fields": [
+  {
+   "fieldname": "document_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Document Type",
+   "options": "DocumentType"
+  },
+  {
+   "default": "0",
+   "fieldname": "portal_access",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Portal Access"
+  },
+  {
+   "default": "0",
+   "fieldname": "auto_email",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Auto Email"
+  },
+  {
+   "default": "0",
+   "fieldname": "inbound",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Inbound"
+  },
+  {
+   "default": "0",
+   "fieldname": "outbound",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Outbound"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-04 10:42:19.226659",
+ "modified_by": "Administrator",
+ "module": "Axe",
+ "name": "Notification Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
